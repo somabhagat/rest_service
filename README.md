@@ -1,9 +1,9 @@
 # Agentic Payment REST Service (2026 Strategy)
+
+This project is a technical deep-dive into the infrastructure required for the next wave of fintech: **Agentic Commerce** and **Network Tokenization**.
+
 ## Visual Overview (Swagger UI)
 ![Agentic Commerce API Documentation](./Screenshot_is_agent.png)
-
-*The interactive API documentation showcasing the `is_agent` logic for autonomous commerce and tokenized payment methods.*
-This project is a technical deep-dive into the infrastructure required for the next wave of fintech: **Agentic Commerce** and **Network Tokenization**.
 
 ### Strategic Objectives
 * **Agentic Permissioning:** Implemented `is_agent` logic to distinguish between human-initiated and AI-autonomous transactions.

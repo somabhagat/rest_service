@@ -1,3 +1,17 @@
+# Agentic Payment REST Service (2026 Strategy)
+
+This project is a technical deep-dive into the infrastructure required for the next wave of fintech: **Agentic Commerce** and **Network Tokenization**.
+
+### Strategic Objectives
+* **Agentic Permissioning:** Implemented `is_agent` logic to distinguish between human-initiated and AI-autonomous transactions.
+* **Security & Tokenization:** Architecture focused on storing merchant-specific `token_id`s rather than raw card data.
+* **Reliability (ACID):** Using PostgreSQL transaction blocks to ensure atomic "all-or-nothing" money movement—critical for financial integrity.
+
+### Tech Stack
+* **FastAPI:** Modern, high-performance Python framework.
+* **PostgreSQL:** Reliable relational storage with strict ACID compliance.
+* **Docker:** Containerized environment for consistent deployment.
+
 # Payment REST Service
 
 A modern Python FastAPI REST service with PostgreSQL supporting **2026 payment trends**: Agentic Commerce and Network Tokenization.
